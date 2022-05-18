@@ -1,13 +1,23 @@
+/* ------* Reset css *------- */
+html {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  margin: 0px;
+  box-sizing: inherit;
+  font-family: "Quicksand", sans-serif;
+  outline: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
