@@ -1,0 +1,13 @@
+.cv-editor {
+  min-height: 100vh;
+  padding: 1rem 2.5rem;
+  width: 50%;
+}
+.editor-section {
+  margin: 1rem auto;
+}
+.editor-section__title {
+  margin-bottom: 0.4rem;
+  font-size: 1.2em;
+  text-align: left;
+}
